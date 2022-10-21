@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(89, 87, 87);
+  font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.messi{
+  display: flex;
+  width: 100%;
+  margin-left: 8%;
+}
+
+.img{
+  margin: 100px 50px 0px 100px;
+  width: 30%;
+  float: left;
+}
+
+.img img{
+  height: 800px;
+}
+
+.text{
+  margin-left: 10%;
+  margin-top: 250px;
+  box-shadow: 0px 0px 15px 0px rgb(164, 164, 164);
+  padding: 80px 50px 0px 50px;
+  margin-bottom: 50px;
+}
+
+.title{
+  display: flex;
+  width:auto;
+  float: right;
+  height: 100px;
+  
+  /* margin-top: 200px; */
+}
+
+h1{
+  font-size:58px;
+  text-transform: uppercase;
+}
+
+.title img{
+ width: auto;
+ height: 80px;
+ margin-left: 25px;
+
+}
+
+p{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.about{
+  display: flex;
+}
+
+.phwa{
+  margin-right: 35px;
+  /* margin-bottom: 80px; */
+  margin-top: 40px;
+}
+
+.phwa h3{
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 10px;
+  
+}
+
+span{
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
